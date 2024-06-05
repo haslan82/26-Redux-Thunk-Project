@@ -6,6 +6,7 @@ const initialState = {
 
 
 const  productReducer = (state=initialState, action) => {
+    console.log(action);
     return state;
 };
 
