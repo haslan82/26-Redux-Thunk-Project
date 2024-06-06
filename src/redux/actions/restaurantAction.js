@@ -9,7 +9,7 @@ export const getRestaurants = (restId) =>(dispatch)=> {
 
   // id alırsak bir restauranta almazsak tüm restaurantlara istek atacağımız url
 
-  const url = restId ? `/restaurants${restId}` : "restaurants";
+  const url = restId ? `/restaurants/${restId}` : "restaurants";
 
   api
     .get(url)
