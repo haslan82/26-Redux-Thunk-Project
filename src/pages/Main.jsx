@@ -3,6 +3,10 @@ import Container from "../components/Container"
 import RestaurantCard from "../components/RestaurantCard"
 import { useEffect } from "react";
 import { getRestaurants } from "../redux/actions/restaurantAction";
+import Loader from "../components/Loader";
+import Error from "../components/Error";
+
+
 
 
 
@@ -28,6 +32,16 @@ const getData = () => {
   return (
     <Container>
         <h1>Tüm Restaranlar</h1>
+
+<div>
+  {
+    isLoading ? (<Loader />) : error ? (<Error  />) : (restaurants.length > 0 &&
+       restaurants.map((item) => (
+       <RestaurantCard key={item.id} data={item} />
+      ))
+      )}
+</div>
+
         <RestaurantCard />
     </Container>
   )

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
 
 
-const RestaurantCard = () => {
+const RestaurantCard = ({data}) => {
+  console.log(data);
   return (
     <Link className="shadow rounded-lg overflow-hidden">
     
