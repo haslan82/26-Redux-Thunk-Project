@@ -1,3 +1,4 @@
+
 const initialState = {
     isLoading:false,
     error: false,
@@ -5,7 +6,8 @@ const initialState = {
 }
 
 
-const  productReducer = (state=initialState, action) => {
+const  productReducer = (state = initialState, action) => {
+    console.log(state)
     console.log(action);
     return state;
 };

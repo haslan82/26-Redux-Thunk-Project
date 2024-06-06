@@ -14,7 +14,7 @@ export const getRestaurants = (restId) =>(dispatch)=> {
   api
     .get(url)
     .then((res) =>
-      dispatchEvent({
+      dispatch({
         type: ActionTypes.REST_SUCCESS,
         payload: res.data,
       })

@@ -4,6 +4,7 @@ import { thunk } from 'redux-thunk'
 
 const rootReducer = combineReducers ({
 restaurants:restaurantReducer,
+products: productReducer,
 });
 
 // const store = createStore(rootReducer, applyMiddleware(thunk));
