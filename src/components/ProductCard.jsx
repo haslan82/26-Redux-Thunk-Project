@@ -5,8 +5,9 @@ import { useSelector } from 'react-redux';
 
 
 const ProductCard = ({item, handleAdd}) => {
-    const {data} = useSelector ((store)=> store.cart);
-console.log(handleAdd)
+
+    const {data} = useSelector ((store) => store.cart);
+console.log(data);
 
     // sepette karttaki elemandan kaçtane var
     const found = data.find((i)=> i.productId === item.id)
@@ -21,10 +22,15 @@ console.log(handleAdd)
     <p className='text-lg font-semibold'>{item.price} </p>
   </div>
   <div className='relative w-[115px] h-[115px] '>
-    <img src={item.photo} className='rounded-md object-cover w-full h-full'  />
-    <button onClick={()=> handleAdd(item , found)} className='absolute end-2 bottom-2 bg-white rounded-full
-     hover:bg-red-100 w-8 h-16 grid place-items-center'>
-        4<FaPlus />
+    <img 
+    src={item.photo} 
+    className='rounded-md object-cover w-full h-full' 
+     />
+    <button onClick={()=> handleAdd (item , found )} 
+    className='absolute end-2 bottom-2 bg-white rounded-full
+     hover:bg-red-100 w-8 h-16 grid place-items-center'
+     >
+        <span>4</span> <FaPlus />
         </button>
   </div>
     </div>

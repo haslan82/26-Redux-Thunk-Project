@@ -9,7 +9,8 @@ import RestaurantDetail from '../components/RestaurantDetail';
 import { FaFire } from "react-icons/fa";
 import ProductCard from '../components/ProductCard';
 import Error from '../components/Error';
-import { addToBasket} from "../redux/actions/basketActions";
+import { addToBasket } from '../redux/actions/basketAction';
+
 
 
 
@@ -34,9 +35,15 @@ const Restaurant = () => {
     dispatch(getRestaurants(id));
   }, []);
 
-const handleAdd = (item, found)=> {
- dispatch (addToBasket(item, restaurants));
-}
+// const handleAdd = (item, found)=> {
+//  dispatch (addToBasket(item, restaurants));
+// }
+
+const handleAdd = (item, found) => {
+  found
+    ? dispatch(updateItem(found.id, found.amount + 1))
+    : dispatch(addToBasket(item, restaurants));
+};
 
   return (
     <div>

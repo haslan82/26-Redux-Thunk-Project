@@ -3,10 +3,16 @@ import Header from './components/Header'
 import Main from './pages/Main'
 import Cart from './pages/Cart'
 import Restaurant from './pages/Restaurant'
+import { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+import { getCart } from './redux/actions/basketAction'
 
 function App() {
- 
+ const dispatch = useDispatch();
 
+useEffect(()=>{
+  dispatch(getCart());
+}, []);
   return (
  
 
@@ -16,8 +22,8 @@ function App() {
     <Routes>
 
 <Route path= "/" element={<Main />}/>
-<Route path= "/cart" element={<Cart />}/>
 <Route path= "/restaurant/:id" element={<Restaurant />} />
+<Route path= "/cart" element={<Cart />}/>
     </Routes>
     </BrowserRouter>
   )

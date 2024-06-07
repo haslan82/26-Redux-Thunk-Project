@@ -9,7 +9,9 @@ export const getCart = ()=> (dispatch)=>{
     dispatch({
         type:ActionTypes.CART_LOADING,
     })
-    api.get("/cart").then((res)=>dispatch({
+    api.get("/cart")
+    .then((res)=>
+        dispatch({
         type:ActionTypes.CART_SUCCESS,
         payload:res.data,
     } )
@@ -31,13 +33,29 @@ id: v4 (),
 title:product.title,
 price:product.price,
 photo:product.photo,
-restaurantName:rest.name
+restaurantName:rest.name,
 amount: 1,
     }
 // 2. adım elemanı api ye ekle
-api.post(`/cart`, newItem).then(()=>dispatch({
-    type:ActionTypes.ADD_TO_CART,
-    payload:newItem,
-} ))
+api.post(`/cart`, newItem).then(()=>
+    dispatch({
+    type: ActionTypes.ADD_TO_CART,
+    payload: newItem,
+} )
+).catch((error)=>{
+    dispatch({
+        type:ActionTypes.CART_ERROR,
+        payload:error.message
+    })
+})
 
+}
+
+export const updateItem = (id, newAmount) => (dispatch) => {
+    api.patch(`/cart/${id} `,{amount: newAmount} ).then((res)=>{
+        dispatch({
+            type:ActionTypes.UPDATE_CART,
+            payload:res.data,
+        })
+    } );
 }
