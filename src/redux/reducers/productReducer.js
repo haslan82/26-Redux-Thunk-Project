@@ -24,7 +24,8 @@ const productReducer = (state = initialState, action) => {
 
     case ActionTypes.PRODUCT_SUCCESS:
       return {...state, isLoading: false, error: false, products: action.payload };
-    default: return state;
+    default:
+       return state;
   }
 };
 

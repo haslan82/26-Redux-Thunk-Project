@@ -9,7 +9,7 @@ import RestaurantDetail from '../components/RestaurantDetail';
 import { FaFire } from "react-icons/fa";
 import ProductCard from '../components/ProductCard';
 import Error from '../components/Error';
-
+import { addToBasket} from "../redux/actions/basketActions";
 
 
 
@@ -20,7 +20,7 @@ const Restaurant = () => {
   const dispatch = useDispatch();
   // İki farklı reducera abone olma
   const productState = useSelector((store) => store.products);
-console.log(productState)
+//console.log(productState)
   const { error, isLoading, restaurants } = useSelector(
     (store) => store.restaurants
   );
@@ -33,6 +33,11 @@ console.log(productState)
     dispatch(getProducts(id));
     dispatch(getRestaurants(id));
   }, []);
+
+const handleAdd = (item, found)=> {
+ dispatch (addToBasket(item, restaurants));
+}
+
   return (
     <div>
      <div className='shadow'>
@@ -64,7 +69,7 @@ console.log(productState)
   <Error />
 ) : (
   productState.products.map((item)=>(
-    <ProductCard key={item.id} item={item} />
+    <ProductCard key={item.id} item={item} handleAdd ={handleAdd} />
   ))
  ) }
 </div>

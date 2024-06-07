@@ -2,10 +2,14 @@ import {combineReducers, createStore, applyMiddleware} from "redux";
 import restaurantReducer from "./reducers/restaurantReducer";
 import { thunk } from 'redux-thunk'
 import productReducer from "./reducers/productReducer";
+import basketReducer from "./reducers/basketReducer";
+
 
 const rootReducer = combineReducers ({
 restaurants:restaurantReducer,
+cart: basketReducer,
 products: productReducer,
+
 });
 
 // const store = createStore(rootReducer, applyMiddleware(thunk));

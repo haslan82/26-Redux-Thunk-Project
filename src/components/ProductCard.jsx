@@ -1,8 +1,16 @@
 import React from 'react'
 import { FaPlus } from "react-icons/fa";
+import { useSelector } from 'react-redux';
 
-const ProductCard = ({item}) => {
-    console.log(item)
+
+
+const ProductCard = ({item, handleAdd}) => {
+    const {data} = useSelector ((store)=> store.cart);
+console.log(handleAdd)
+
+    // sepette karttaki elemandan kaçtane var
+    const found = data.find((i)=> i.productId === item.id)
+   console.log(found)
   return (
     <div className='product-card border shadow p-3 hover:scale-[1.02] rounded-lg transition duration-300 hover:bg-red-100 cursor-pointer'>
   <div className='flex flex-col justify-between'>
@@ -14,8 +22,8 @@ const ProductCard = ({item}) => {
   </div>
   <div className='relative w-[115px] h-[115px] '>
     <img src={item.photo} className='rounded-md object-cover w-full h-full'  />
-    <button className='absolute end-2 bottom-2 bg-white rounded-full
-     hover:bg-red-100 w-8 h-8 grid place-items-center'>
+    <button onClick={()=> handleAdd(item , found)} className='absolute end-2 bottom-2 bg-white rounded-full
+     hover:bg-red-100 w-8 h-16 grid place-items-center'>
         4<FaPlus />
         </button>
   </div>
@@ -23,4 +31,4 @@ const ProductCard = ({item}) => {
   )
 }
 
-export default ProductCard
+export default ProductCard;
