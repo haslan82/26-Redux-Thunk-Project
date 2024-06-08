@@ -297,528 +297,57 @@
   ],
   "cart": [
     {
-      "id": "0da14dfa-e8be-4a2d-908e-47812dc29d1b",
+      "id": "51baf0f0-b2d1-4c26-9ec8-e98c28d6c36c",
+      "productId": "8",
+      "title": "Sebzeli Noodle",
+      "price": 11.99,
+      "photo": "https://picsum.photos/207",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 18
+    },
+    {
+      "id": "f62a256f-6339-448d-89bd-4640d1750fd8",
+      "productId": "38",
+      "title": "Sebzeli Noodle",
+      "price": 11.99,
+      "photo": "https://picsum.photos/217",
+      "restaurantName": "Baharatlı Lezzetler",
+      "amount": 11
+    },
+    {
+      "id": "ddad0404-9cac-48c6-ad93-adadf4895bd5",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 2
+    },
+    {
+      "id": "0b06a8b0-6e88-4222-8a12-35686ac0367d",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 6
+    },
+    {
+      "id": "19cb2751-4d3f-49a0-a290-6aae9aa36e6a",
+      "productId": "53",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/212",
+      "restaurantName": "Lezzet Köşesi",
+      "amount": 3
+    },
+    {
+      "id": "5abf8b56-f713-4c3d-bdab-320d5383c61c",
       "productId": "9",
       "title": "İtalyan Salata",
       "price": 8.49,
       "photo": "https://picsum.photos/208",
       "restaurantName": "Lezzet Köşesi",
-      "amount": 3
-    },
-    {
-      "id": "9ed81391-e59d-4a91-ad51-2f299fc29292",
-      "productId": "4",
-      "title": "Çikolatalı Brownie",
-      "price": 8.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "827462da-4fa8-4a2f-a5ce-b4d9d37211c9",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/209",
-      "restaurantName": "Tadı Damağınızda"
-    },
-    {
-      "id": "add79dc6-6983-479b-a10f-d2181874ae32",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/209",
-      "restaurantName": "Tadı Damağınızda"
-    },
-    {
-      "id": "4301cd8a-f7f9-4a73-ad7e-0c59b339788e",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/209",
-      "restaurantName": "Tadı Damağınızda"
-    },
-    {
-      "id": "1159e998-98cb-4312-82db-86573c1ba171",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/209",
-      "restaurantName": "Tadı Damağınızda"
-    },
-    {
-      "id": "5802405e-920c-4927-9a8a-faf118d0880d",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/209",
-      "restaurantName": "Tadı Damağınızda"
-    },
-    {
-      "id": "6a71b4f2-093e-477c-9797-dabbf72a7249",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "ce7bac44-3a29-4474-9805-b97f6ed14b84",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "5681e542-65af-40d9-8955-a7d86a644d1f",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "3729aab3-8a8b-4f66-bcef-84faba6b3c5d",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "21e39bf0-81db-4513-92dd-d8fd18ebd79b",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "f41aebdd-8b75-40c8-acfb-365571c1aec8",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "a0ce6a25-bd46-49e8-a9bc-1179536f5ab5",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "b01eaff5-2a13-4d08-9df2-ab2a439e5486",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "a6fe8429-7cd4-4954-a7b5-f0dc429d978c",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "74edfe76-fd7f-4fcc-9d13-8074c1de1901",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "b7212f90-e865-414a-849d-a335c38ddb95",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "f8e929bf-8ac9-40cc-9571-f04d22f23b42",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/203",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "c01b0369-7fdb-4603-be5f-e645e99dd0ce",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "9bfe37db-bb9a-42af-ac15-489ce28cac1f",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "21092a9a-1430-47c7-a0c5-68985906beeb",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "a4d1b0d9-e3b8-490a-9608-d9c3dab1c2cc",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "78b9d41f-ea2a-455b-9fac-910582dcc444",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "36efa6f6-5f08-4c94-978b-c77ffbff8b2f",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "9d21ab1c-43ee-4d85-95ba-dccb938b9625",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "05d87fcc-7a65-4b9b-8fde-7f0e5bd4bf0b",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "b1998fe2-fa06-41a4-ace2-b1dc6884033c",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "5ac40e0a-10b5-4e51-88d4-2a54a1246a60",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "307054bc-9582-454a-907a-0e755053093a",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "567ef192-13c4-4c84-ad6d-7b9954152369",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "c3aaf19a-4f90-4e51-88ef-fda7bbbfa70d",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "61faa5cd-47ab-4926-a069-e5cba2b538eb",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "84f64cd3-0292-46f1-b002-d1fcea5ab438",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "05270145-a98d-4f93-856e-060c7c927e91",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "c4e4f71e-3d13-42da-9f76-db3a75fcbdfa",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "d5e72488-2172-4bf4-b159-a3b8f1e9cfa3",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "6e0f131b-8fad-41dd-8cae-2d4b7e77c7c7",
-      "title": "Margarita Pizza",
-      "price": 12.99,
-      "photo": "https://picsum.photos/201",
-      "restaurantName": "Aromalı Ev",
-      "amount": 1
-    },
-    {
-      "id": "4a8d71c7-d6ca-42ea-958a-5acdd4df0927",
-      "title": "Tavuk Kebabı",
-      "price": 17.99,
-      "photo": "https://picsum.photos/212",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "04911c25-851d-4525-af39-90b035b3d16f",
-      "title": "Tavuk Kebabı",
-      "price": 17.99,
-      "photo": "https://picsum.photos/212",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "717c5402-befe-449d-be04-59a8f7089ef4",
-      "title": "Tavuk Kebabı",
-      "price": 17.99,
-      "photo": "https://picsum.photos/212",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "cdcbc941-da29-4c63-8ad7-4407991e65e5",
-      "title": "Tavuk Kebabı",
-      "price": 17.99,
-      "photo": "https://picsum.photos/212",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "05aea814-fe33-4dd8-8371-b2e87dcddb32",
-      "title": "Tavuk Kebabı",
-      "price": 17.99,
-      "photo": "https://picsum.photos/212",
-      "restaurantName": "Lezzet Köşesi",
-      "amount": 1
-    },
-    {
-      "id": "bcfeda1d-955f-444b-bf60-732aad51b6bf",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "e6358781-3662-4b8f-9d78-4e971affd6c8",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "5467cc49-71c0-4c93-bf3f-a4c9378dc2a0",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "34003d4c-2d00-4523-93cd-29a4e1cd848f",
-      "title": "Izgara Somon",
-      "price": 45.99,
-      "photo": "https://picsum.photos/200",
-      "restaurantName": "Lezzetin Tadı",
-      "amount": 1
-    },
-    {
-      "id": "8e777561-2d28-4a18-affe-bfec8d1e23c4",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "f0d39749-6433-4745-ac89-c43e49390f43",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "72ce0db4-e430-43ca-8d3c-8cc765855c8c",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "1c003590-923e-4adc-8f70-e085768be58a",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "8711b204-ed48-430f-a398-3d83bac469f8",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "4efc34f8-6205-433f-8b5f-068f393153e5",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "8be265a5-6c9d-417a-af38-22461e468430",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "e3b03e2f-d0c4-491d-874f-9b7ca7a716fe",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "771db993-b8dc-4ef4-a4f7-961fbb40f911",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "d0bbc4d8-a7d6-4005-a41b-a04eeab907fe",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "a4ca26a1-aa86-45c2-8d55-d8aef4e64b99",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "c9c36bb9-fd46-44b8-ad4b-f07daa8ea9bf",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "305bcf47-cacb-495a-9dc3-0d5695e53d2f",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "9a51117e-d249-4bee-b56b-37e9bb504a4f",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "651721b5-6a45-4795-89a6-342fb3b6616b",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "aec61074-2656-4f94-b48d-7964596e4ada",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "24c43796-3e52-4f34-8a11-8f7a43edb6ec",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "ec284ebd-0010-44b1-a5d3-c612cd5c410f",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
-      "amount": 1
-    },
-    {
-      "id": "967a19b4-f608-4f85-805e-badd3579c2c5",
-      "title": "Köri Tavuk",
-      "price": 16.99,
-      "photo": "https://picsum.photos/211",
-      "restaurantName": "Keyifli Mekan",
       "amount": 1
     }
   ]

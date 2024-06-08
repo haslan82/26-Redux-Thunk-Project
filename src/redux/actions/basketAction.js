@@ -30,6 +30,7 @@ export const addToBasket = (product, rest) => (dispatch)=> {
     // 1. adım Sepete eklenecek olan ürünün bilgilerini belirle
     const newItem = {
 id: v4 (),
+productId: product.id,
 title:product.title,
 price:product.price,
 photo:product.photo,

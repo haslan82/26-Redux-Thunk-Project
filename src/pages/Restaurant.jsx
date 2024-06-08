@@ -9,7 +9,7 @@ import RestaurantDetail from '../components/RestaurantDetail';
 import { FaFire } from "react-icons/fa";
 import ProductCard from '../components/ProductCard';
 import Error from '../components/Error';
-import { addToBasket } from '../redux/actions/basketAction';
+import { addToBasket, updateItem } from '../redux/actions/basketAction';
 
 
 

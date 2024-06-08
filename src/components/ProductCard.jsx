@@ -10,8 +10,13 @@ const ProductCard = ({item, handleAdd}) => {
 console.log(data);
 
     // sepette karttaki elemandan kaçtane var
+
+
     const found = data.find((i)=> i.productId === item.id)
    console.log(found)
+
+
+
   return (
     <div className='product-card border shadow p-3 hover:scale-[1.02] rounded-lg transition duration-300 hover:bg-red-100 cursor-pointer'>
   <div className='flex flex-col justify-between'>
@@ -28,9 +33,11 @@ console.log(data);
      />
     <button onClick={()=> handleAdd (item , found )} 
     className='absolute end-2 bottom-2 bg-white rounded-full
-     hover:bg-red-100 w-8 h-16 grid place-items-center'
+     hover:bg-red-100 w-8 h-8 grid place-items-center'
      >
-        <span>4</span> <FaPlus />
+        {
+          found ? <span>{found.amount} </span> : <FaPlus className="text-xl" />
+        }
         </button>
   </div>
     </div>

@@ -28,6 +28,14 @@ const basketReducer = (state= initialState, action)=> {
                     error:false,
                      isLoading: false,
                       data: state.data.concat(action.payload)};
+
+        case ActionTypes.UPDATE_CART:
+         const updateArr  = state.data.map((i)=> (i.id ===action.payload.id ? action.payload : i)
+        );
+        return{...state, data: updateArr};
+           default: return state;
+
+
   }
 return state;
 }

@@ -8,23 +8,27 @@ import CartItem from '../components/CartItem';
 
 const Cart = () => {
   const cart = useSelector((store) => store.cart);
-console.log(cart);
+//console.log(cart);
 
   return (
     <Container>
-<h1>SEPET</h1>
+<h1 className='text-2xl font-bold mb-5'>SEPET</h1>
 <div>
-  {
-    cart.isLoading ? (
+  {cart.isLoading ? (
       <Loader />
-    ) : Cart.error ? (<Error />) : cart.data.lenght === 0 ? (
-      <p>Sepette herhangi bir ürün yok
-        <Link to={"/"} >
-        Ürün Ekle
-        </Link>
+    ) : cart.error ? (
+    <Error />
+  ) : cart.data.length === 0 ? (
+      <p className='flex  flex-col items-center gap-3'>
+        Sepette herhangi bir ürün yok
+        <Link className='border p-2 shadow rounded  hover: bg-gray-100'
+         to={"/"} 
+         >
+          Ürün Ekle
+          </Link>
       </p>
     ): (
-      cart.data.map((item)=> <CartItem  key={item.id} item={item} /> )
+      cart.data.map((item) => <CartItem key={item.id} item={item} />)
     )
   }
 </div>
