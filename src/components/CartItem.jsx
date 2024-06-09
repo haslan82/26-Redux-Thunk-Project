@@ -3,7 +3,7 @@ import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
 import { FaTrashCan } from "react-icons/fa6";
 import { useDispatch } from 'react-redux';
-import { updateItem } from '../redux/actions/basketAction';
+import { deleteItem, updateItem } from '../redux/actions/basketAction';
 
 const CartItem = ({item}) => {
     //console.log(item)
@@ -11,6 +11,11 @@ const  dispatch = useDispatch ()
 const handleIncrease = () => {
   //console.log("tıklanıldı")
   dispatch(updateItem(item.id, item.amount + 1));
+}
+
+const handleDecrease = () => {
+  //console.log( "tıklanıldı")
+  item.amount > 1 ? dispatch(updateItem(item.id, item.amount - 1)):  dispatch(deleteItem(item.id)) ;
 }
 
   return (
@@ -23,7 +28,7 @@ const handleIncrease = () => {
         <div className='flex justify-between items-center'>
             <p className='font-semibold'>{item.price} TL </p>
             <div className='border text-xl rounded-lg'>
-      <button className='p-3 text-red-500 hover: bg-red-100 rounden-xl'> {item.amount > 1 ? <FaMinus /> : <FaTrashCan /> } </button> 
+      <button onClick={handleDecrease} className='p-3 text-red-500 hover: bg-red-100 rounden-xl'> {item.amount > 1 ? <FaMinus /> : <FaTrashCan /> } </button> 
                <span className='p-3'>{item.amount} </span>
                <button onClick={handleIncrease} className='p-3  text-red-500 rounded-xl hover: bg-red-100'>
                 <FaPlus />

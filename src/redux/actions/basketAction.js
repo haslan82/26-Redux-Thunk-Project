@@ -51,7 +51,7 @@ api.post(`/cart`, newItem).then(()=>
 })
 
 }
-
+// sepetteki elemanı güncelle(miktar arttırma / azaltma)
 export const updateItem = (id, newAmount) => (dispatch) => {
     api.patch(`/cart/${id} `,{amount: newAmount} ).then((res)=>{
         dispatch({
@@ -60,3 +60,10 @@ export const updateItem = (id, newAmount) => (dispatch) => {
         })
     } );
 }
+
+export const deleteItem=(id)=> (dispatch)=>{
+api.delete(`/cart/${id} `).then (()=>dispatch({
+    type:ActionTypes.DELETE_FROM_CART,
+    payload:id,
+}))
+};
