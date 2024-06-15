@@ -26,11 +26,6 @@ Her türlü katkı ve öneriye açığım. Proje ile ilgili bir sorunla karşıl
 
 
 
-
-
-
-
-
 <!-- 
 # Kütüphaneler
 
